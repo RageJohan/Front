@@ -7,7 +7,7 @@ import FirendReqData from '../../FackApis/FirendReqData';
 export default function FirendReqe(){
     return(
         <div className='Firend-Requests'> 
-            <h4>Firend Requests</h4>
+            <h4>Friends Requests</h4>
 
             {
                 FirendReqData.map(firend=>(

@@ -29,14 +29,7 @@ export default function LeftBar(){
                             <h4>Home</h4>
                         </div>
                     </Link>
-
-                    <Link to='/'>
-                        <div className='item'>
-                            <img src={Firend} alt='' />
-                            <h4>Friends</h4>
-                        </div>
-                    </Link>
-
+                    
                     <Link to='/chatbox/id'>
                         <div className='item'>
                             <img src={Message} alt='' />
