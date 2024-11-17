@@ -19,7 +19,7 @@ export default function Nav(){
     {/* .........................NavAria Left ..........................*/}
                 <div className="nav-left">
                     <Link to="/">
-                    <h3 className="logo">NapaExtra</h3>
+                    <h3 className="logo">UniLink</h3>
                     </Link>
                     <Link to='/'>
                         <FontAwesomeIcon icon={faHome}/>
@@ -47,7 +47,7 @@ export default function Nav(){
                     </Link>
                     <div className="user">
                         <img src={CurrentUser.map(user=>(user.ProfieImage))} alt="user" />
-                        <h4>Beg Joker</h4>
+                        <h4>Usuario</h4>
                     </div>
                 </div>
             </div>

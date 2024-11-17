@@ -1,9 +1,10 @@
 .leftBar{
     position: sticky;
-    top: 3.6rem;
+    top: 3.9rem;
     background: var(--color-card);
     height: calc(100vh - 3.6rem);
     overflow: auto;
+    width: 90%;
 }
 .leftBar::-webkit-scrollbar{
     display: none;
@@ -12,14 +13,30 @@
     width: 80%;
     margin: 0 auto;
 }
-.left-container .user{
-    margin-top: 20px;
+
+.left-container a{
+    color: var(--color-primary);
+    font-size: 1.1rem;
 }
-.left-container .item{
+
+.left-container a .items{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-left: 5px;
     display: flex;
     align-items: center;
     gap: 10px;
-    margin: 20px 0;
+    margin: 35px 0;
+}
+
+.left-container .item{
+    color: var(--color-primary);
+    font-size: 1.3rem;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 35px 0;
 }
 .left-container .item img{
     width: 28px;    

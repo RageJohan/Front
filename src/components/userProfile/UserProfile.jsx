@@ -21,7 +21,7 @@ export default function UserProfile(){
                     <h5>{CurrentUserData.map(user=>(user.username))}</h5>
                 </div>
                 <div className="profile-button">
-                    <Link to={/chatbox/id}>
+                    <Link to={"/chatbox/id"}>
                     <button className='btn btn-primary'>
                         <FontAwesomeIcon icon={faMessage} />
                     </button>

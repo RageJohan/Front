@@ -1,5 +1,5 @@
 nav{
-    height: 3.6remm;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,20 +15,22 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 50px;
 }
 .nav-container a{
     color: var(--color-primary);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 .nav-left{
     display: flex;
-    align-items: center;
+    align-items: center;    
     gap: 30px;
 }
 .logo{
     color: var(--color-primary);
-    font-size: 1.6rem;
-    font-weight: 400;
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-right: 20px;
 }
 .Nav-Serchbar{
     display: flex;
