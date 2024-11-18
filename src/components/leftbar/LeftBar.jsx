@@ -37,12 +37,12 @@ export default function LeftBar(){
                         </div>
                     </Link>  
 
-                    <Link to='/'>
+                    <Link to='/notification'>
                         <div className='items'>
                             <FontAwesomeIcon icon={faBell} />
                             <h4>Notifications</h4>
                         </div>
-                    </Link>                                     
+                    </Link>                                    
                 </div>                    
             </div>
         </div>

@@ -8,11 +8,13 @@ import Signup from "../pages/signup/Signup";
 import Home from "../pages/home/Home";
 import Profile from "../pages/profile/Profile";
 import Chatbox from "../pages/chatbox/chatbox";
+import Notification from "../pages/notification/Notification";
 
 // Components.............
 import Nav from "../components/nav/Nav";
 import LeftBar from "../components/leftbar/LeftBar";
 import RightBar from "../components/rightbar/RightBar";
+import Notify from "../components/notify/notify";
 
 export default function Layout(){
 
@@ -49,6 +51,10 @@ export default function Layout(){
                 {
                     path: "/chatbox/:id",
                     element: <Chatbox />,
+                },
+                {
+                    path:"/notification",
+                    element: <Notification />,
                 }
             ]
         },

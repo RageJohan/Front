@@ -38,7 +38,7 @@ export default function Nav(){
                     <Link to="/chatbox/id">
                         <FontAwesomeIcon icon={faEnvelope} />
                     </Link>
-                    <Link to="/">
+                    <Link to="/notification">
                         <FontAwesomeIcon icon={faBell} />
                     </Link>
                     <DarkMoode />
